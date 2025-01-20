@@ -1,7 +1,7 @@
 ## Text summarization
 This project introduces an innovative approach to abstractive text summarization, focusing on conversational text using the Pegasus model and the SAMSum dataset. The SAMSum corpus, known for its informal and interactive style, presents unique challenges not typically addressed by standard summarization models. The approach includes a thorough preprocessing of SAMSum, aligning it with Pegasus's input requirements, followed by detailed fine-tuning. This process integrates hyperparameter optimization, adaptive transfer learning, and a focused training regimen, emphasizing the preservation of conversational context. The model's effectiveness is evaluated using both objective metrics like ROUGE-N, ROUGE-L, and BLEU, and subjective human assessments, ensuring the summaries' coherence, relevance, and readability. The results show a notable improvement in summarizing conversational texts, surpassing existing benchmarks and contributing significantly to NLP, particularly in enhancing dialogue summarization and model adaptability in domain-specific contexts.
 
-### Frontend URL: https://text-summarization-psi.vercel.app/
+
 ### Backend URL: 
 
 ## Technology Stack
@@ -78,9 +78,7 @@ For more details, visit the [Hugging Face Pegasus model page](https://huggingfac
 
 Clone the repository
 
-```bash
-git clone https://github.com/Priyanshu9898/Text-Summarization.git
-```
+
 ### STEP 01- Create a Python environment after opening the repository
 
 ```bash
